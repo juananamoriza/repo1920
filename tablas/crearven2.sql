@@ -8,6 +8,9 @@ TITULACION	CHAR(10),
 SUPERIOR	CHAR(3),
 CONSTRAINT CP_TVENDEDOR2 PRIMARY KEY (COD_VEN))
 /
+
+insert into tvendedor2 (COD_VEN, NOM_VEN, PORCEN, TITULACION) values
+('005', 'TORRES PAZ L.', 15, 'SUPERIOR');
 insert into tvendedor2 values
 ('002','PEREZ DIRAC A.', 5, 'ELEMENTAL', '001');
 insert into tvendedor2 values
@@ -18,6 +21,4 @@ insert into tvendedor2 values
 ('006', 'LOPEZ MAS C.', 10, 'MEDIA', '003');
 insert into tvendedor2 (COD_VEN, NOM_VEN, PORCEN, TITULACION) values
 ('001','CORZAN BLASCO M.C.', 10, 'SUPERIOR');
-insert into tvendedor2 (COD_VEN, NOM_VEN, PORCEN, TITULACION) values
-('005', 'TORRES PAZ L.', 15, 'SUPERIOR');
 COMMIT;
