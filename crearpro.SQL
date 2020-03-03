@@ -21,4 +21,5 @@ insert into tprovincia values
 ('LO', 'LOGROÑO', 100000);
 insert into tprovincia values
 ('TO', 'TOLEDO', 2000);
+--comentario2
 COMMIT;
