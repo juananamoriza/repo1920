@@ -6,7 +6,7 @@ NOMBRE		varchar2(25) NOT NULL,
 TOTAL_COMPRA	number(10) NOT NULL)
 /
 --comentario1
---comentario4
+>>>>>>> b8b2df56d3e670e7c41e8094806c9a8f067302ba
 insert into tprovincia values
 ('HU', 'HUESCA', 1000000);
 insert into tprovincia values
@@ -24,4 +24,5 @@ insert into tprovincia values
 insert into tprovincia values
 ('TO', 'TOLEDO', 2000);
 --comentario2
+--comentario5
 COMMIT;
