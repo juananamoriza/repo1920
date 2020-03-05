@@ -8,6 +8,7 @@ TITULACION	VARCHAR2(10),
 SUPERIOR	CHAR(3)
 )
 /
+-- |UwU| estos son los insert into |UwU|
 insert into tvendedor values
 ('002','PEREZ DIRAC A.', 5, 'ELEMENTAL', '001');
 insert into tvendedor values
